@@ -29,9 +29,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
-# GMS
-WITH_GMS_COMMS_SUITE := false
-
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlayDevice \
